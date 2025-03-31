@@ -1,0 +1,92 @@
+# vsim -c top "+UVM_TESTNAME=spi_demo_test" -do "run -a" 
+# Start time: 12:34:22 on Mar 26,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# //  Questa Sim-64
+# //  Version 10.7c linux_x86_64 Aug 17 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading sv_std.std
+# Loading mtiUvm.uvm_pkg
+# Loading work.spi_cfg_pkg(fast)
+# Loading work.apb_seq_pkg(fast)
+# Loading work.spi_tlm_pkg(fast)
+# Loading work.apb_if(fast)
+# Loading work.clk_rst_if(fast)
+# Loading work.apb_agent_pkg(fast)
+# Loading work.spi_env_pkg(fast)
+# Loading work.spi_test_pkg(fast)
+# Loading work.top_sv_unit(fast)
+# Loading work.top(fast)
+# Loading work.spi_top(fast)
+# Loading mtiUvm.questa_uvm_pkg(fast)
+# Loading work.spi_if(fast)
+# Loading /home/tools/mentor/questasim/uvm-1.1d/linux_x86_64/uvm_dpi.so
+# run -a
+# ----------------------------------------------------------------
+# UVM-1.1d
+# (C) 2007-2013 Mentor Graphics Corporation
+# (C) 2007-2013 Cadence Design Systems, Inc.
+# (C) 2006-2013 Synopsys, Inc.
+# (C) 2011-2013 Cypress Semiconductor Corp.
+# ----------------------------------------------------------------
+# 
+#   ***********       IMPORTANT RELEASE NOTES         ************
+# 
+#   You are using a version of the UVM library that has been compiled
+#   with `UVM_NO_DEPRECATED undefined.
+#   See http://www.eda.org/svdb/view.php?id=3313 for more details.
+# 
+#   You are using a version of the UVM library that has been compiled
+#   with `UVM_OBJECT_MUST_HAVE_CONSTRUCTOR undefined.
+#   See http://www.eda.org/svdb/view.php?id=3770 for more details.
+# 
+#       (Specify +UVM_NO_RELNOTES to turn off this notice)
+# 
+# UVM_INFO verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(215) @ 0: reporter [Questa UVM] QUESTA_UVM-1.2.3
+# UVM_INFO verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(216) @ 0: reporter [Questa UVM]  questa_uvm::init(+struct)
+# UVM_INFO @ 0: reporter [RNTST] Running test spi_demo_test...
+# UVM_INFO /home/share_folder_tresemi_dv/adv/work/spi_tb/tb/env/spi_env.sv(29) @ 0: uvm_test_top.spi_env [spi_env] Running env ...
+# UVM_INFO @ 0: uvm_test_top.spi_env.apb_agent_0.apb_driver [apb_driver] Running ...
+# UVM_INFO @ 0: uvm_test_top.spi_env.apb_agent_0.apb_driver [apb_driver] Starting get_and_drive
+# UVM_INFO @ 1000: uvm_test_top.spi_env.apb_agent_0.apb_sequencer@@apb_demo_seq_name [] Sending reset packet 
+# UVM_INFO @ 201000: uvm_test_top.spi_env.apb_agent_0.apb_driver [apb_driver] I saw reset assertion
+# UVM_INFO @ 1201000: uvm_test_top.spi_env.apb_agent_0.apb_sequencer@@apb_demo_seq_name [] Received reponse packet
+# UVM_INFO /home/share_folder_tresemi_dv/adv/work/spi_tb/tb/agt/master/apb_driver.sv(85) @ 1201000: uvm_test_top.spi_env.apb_agent_0.apb_driver [apb_driver] APB write to addr=0 wdata=bbbbbbbb
+# UVM_INFO @ 1281000: uvm_test_top.spi_env.apb_agent_0.apb_sequencer@@apb_demo_seq_name [] Received reponse packet 00000000
+# UVM_INFO /home/share_folder_tresemi_dv/adv/work/spi_tb/tb/agt/master/apb_driver.sv(85) @ 1321000: uvm_test_top.spi_env.apb_agent_0.apb_driver [apb_driver] APB write to addr=4 wdata=cccccccc
+# UVM_INFO @ 1401000: uvm_test_top.spi_env.apb_agent_0.apb_sequencer@@apb_demo_seq_name [] Received reponse packet 00000004
+# UVM_INFO /home/share_folder_tresemi_dv/adv/work/spi_tb/tb/agt/master/apb_driver.sv(85) @ 1441000: uvm_test_top.spi_env.apb_agent_0.apb_driver [apb_driver] APB write to addr=8 wdata=dddddddd
+# UVM_INFO @ 1521000: uvm_test_top.spi_env.apb_agent_0.apb_sequencer@@apb_demo_seq_name [] Received reponse packet 00000008
+# UVM_INFO /home/share_folder_tresemi_dv/adv/work/spi_tb/tb/agt/master/apb_driver.sv(85) @ 1561000: uvm_test_top.spi_env.apb_agent_0.apb_driver [apb_driver] APB write to addr=c wdata=eeeeeeee
+# UVM_INFO @ 1641000: uvm_test_top.spi_env.apb_agent_0.apb_sequencer@@apb_demo_seq_name [] Received reponse packet 0000000c
+# UVM_INFO /home/share_folder_tresemi_dv/adv/work/spi_tb/tb/agt/master/apb_driver.sv(85) @ 1681000: uvm_test_top.spi_env.apb_agent_0.apb_driver [apb_driver] APB write to addr=10 wdata=3b00
+# UVM_INFO verilog_src/uvm-1.1d/src/base/uvm_objection.svh(1267) @ 1761000: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+# 
+# --- UVM Report Summary ---
+# 
+# ** Report counts by severity
+# UVM_INFO :   19
+# UVM_WARNING :    0
+# UVM_ERROR :    0
+# UVM_FATAL :    0
+# ** Report counts by id
+# []     6
+# [Questa UVM]     2
+# [RNTST]     1
+# [TEST_DONE]     1
+# [apb_driver]     8
+# [spi_env]     1
+# ** Note: $finish    : /home/tools/mentor/questasim/linux_x86_64/../verilog_src/uvm-1.1d/src/base/uvm_root.svh(430)
+#    Time: 1761 ns  Iteration: 61  Instance: /top
+# End time: 12:34:27 on Mar 26,2025, Elapsed time: 0:00:05
+# Errors: 0, Warnings: 0

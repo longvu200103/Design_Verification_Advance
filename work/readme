@@ -1,0 +1,128 @@
+Tuesday Mar 18
+==============
+- Create apb_if.sv (you may retain the signal names)
+- Create spi_if.sv 
+	Notes:
+	Use logic to drive the input to the DUT
+	Use wire for the DUT output
+- Update Makefile to compile the new interface files for target spi_if
+	+ make spi_if
+- Update top.sv
+	+ Instantiate apb_if and spi_if
+	+ Use config_db::set to put both interfaces in resource database
+	+ Instantiate spi_top and connect interface signals to the DUT signals
+	+ make top
+Thursday Mar 20
+===============
+- Create spi_tlm package (use /home/share_folder_tresemi_dv/adv/mux_tb/tb/tlm)
+	+ Create spi_tlm_pkg.svh
+	+ Create spi_tlm.sv
+	  o APB Register address
+		o APB write/read command
+		o APB write data
+		o APB read data
+		o MOSI data
+		o MISO data
+		o to_reset
+	+ Update Makefile
+	+ make tlm
+- Create master apb_master_agent package (use mux_tb/tb/agt/mux_in/mux_in_agent_pkg.svh)
+  + Create apb_master_agent_pkg.svh
+	+ Add required import statements
+	+ Create apb_master_agent.sv
+	  o Instantiate sequencer in build method
+	  o Instantiate driver in build method
+		o Connect driver to sequencer in connect method
+	+ Create apb_driver.sv
+		o Declare virtual interfaces apb_if and clk_rst_if
+		o In connect phase, use uvm_config_db::get to obtain the handles to apb_if and clk_rst_if
+		o Retrieve transactions from sequencer
+		o Process the transactions
+			1. APB reset
+			2. APB write: call apb_write(pkt)
+			3. APB read: call apb_read(pkt)
+	+ Update Makefile
+	+ make agt
+Tuesday Mar 25
+==============
+- Create spi_cfg_package (use mux_tb/tb/cfg)
+	+ Create spi_cfg_pkg.svh
+	+ Create spi_cfg.sv
+		o rand bit ass
+		o rand bit ie
+		o rand bit lsb
+		o rand bit tx_neg
+		o rand bit rx_neg
+		o bit go_bsy
+		o bit reserved
+		o rand bit [6:0] char_len
+	+ Create constraint block
+	+ Defer: Create function set_mask() to mask MOSI and MISO data when the number of bits is not 128
+	+ Update Makefile
+	+ make cfg
+- Create apb_seq package
+	+ Create apb_seq_pkg.svh
+	+ Create apb_demo_seq.sv
+		o assert(uvm_resource_db #(spi_cfg)::read_by_name(get_full_name(),"SPI_CFG",spi_cfg_h));
+		o In task body, create 6 transactions
+		o Defer: Randomize char_len using $urandom_range(1,128)
+		o Configure to
+			oo ass = 1
+			oo ie = 1
+			oo lsb = 0
+			oo tx_neg = 1
+			oo rx_neg = 0
+			oo char_len = 0
+		o Defer: Call set_mask to mask out unused bits in MOSI and MISO
+		o The first packet sent is a reset packet
+		o The next four packets are apb writes to addresses 0, 4, 8, 12
+			oo Use smart data for debug
+			oo dword0 = aaaa_aaaa;
+			oo dword1 = bbbb_bbbb;
+			oo dword2 = cccc_cccc;
+			oo dword3 = dddd_dddd;
+		o The last packet is write to control register with GO_BSY = 1
+		o ctl_reg = {
+		             18'h0,
+								 cfg.ass,
+								 cfg.ie,
+								 cfg.lsb,
+								 cfg.tx_neg,
+								 cfg.rx_neg,
+								 cfg.go_bsy,
+								 1'b0,
+								 cfg.char_len
+								 };
+	+ Update Makefile
+	+ make seq
+- Create spi_env package
+	+ Create spi_env_pkg.svh
+	+ Create spi_env.sv
+		o Create apb_master_agent instance
+	+ Update Makefile
+	+ make env
+Thursday Mar 27
+===============
+- Create spi_test package
+	+ Create spi_test_pkg.svh
+	+ Create spi_demo_test.sv
+		o Declare an environment component and a spi_cfg object
+		o In build phase, create an environment instance
+		o In build phase, create a configuration instance
+		o uvm_config_db#(spi_cfg)::set(null,"*","SPI_CFG",spi_cfg_h);
+		o In run phase, randomize the configuration object
+		o Create apb_demo_seq instance
+		o Start the apb_demo_seq sequence
+	+ Update Makefile
+	+ make tst
+- Run simulation
+	+ Update target compile_spi in Makefile
+	+ Compile: make compile_spi
+	+ Run: make vopt_run test_name=spi_demo_test
+
+- Create spi_slave package
+	+ Create spi_slave_agent_pkg.svh
+	+ Create spi_slave_monitor.sv
+		o Declare virtual interface spi_if
+		o Use uvm_config_db::get to obtain the handle to spi_if
+		o Capture serial data MOSI
