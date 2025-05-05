@@ -1,0 +1,725 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+!s11f vlog 2021.2_1 2021.05, May 15 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 d/home/tresemi_share_folder/lab_p2_spi_tb/sim
+T_opt
+!s11d apb_slave_agent_pkg /home/tresemi_share_folder/lab_p2_spi_tb/sim/work 1 apb_if 1 /home/tresemi_share_folder/lab_p2_spi_tb/sim/work 
+!s11d spi_slave_agent_pkg /home/tresemi_share_folder/lab_p2_spi_tb/sim/work 2 spi_if 1 /home/tresemi_share_folder/lab_p2_spi_tb/sim/work clk_rst_if 1 /home/tresemi_share_folder/lab_p2_spi_tb/sim/work 
+!s11d spi_agent_pkg /home/tresemi_share_folder/lab_p2_spi_tb/sim/work 2 spi_if 1 /home/tresemi_share_folder/lab_p2_spi_tb/sim/work clk_rst_if 1 /home/tresemi_share_folder/lab_p2_spi_tb/sim/work 
+!s11d apb_agent_pkg /home/tresemi_share_folder/lab_p2_spi_tb/sim/work 2 apb_if 1 /home/tresemi_share_folder/lab_p2_spi_tb/sim/work clk_rst_if 1 /home/tresemi_share_folder/lab_p2_spi_tb/sim/work 
+!s110 1745292221
+Vc07adDlW3E=aHZ[gZE@JH2
+Z2 04 3 4 work top fast 0
+=1-000c293a1cb7-68070bbc-6374c-12057
+Z3 !s124 OEM100
+Z4 o-quiet -auto_acc_if_foreign -work work
+Z5 tCvgOpt 0
+n@_opt
+Z6 OL;O;2021.2_1;73
+R1
+T_opt1
+Z7 !s11d apb_slave_agent_pkg /home/s20522060/lab_p2_spi_tb/sim/work 1 apb_if 1 /home/s20522060/lab_p2_spi_tb/sim/work 
+Z8 !s11d spi_slave_agent_pkg /home/s20522060/lab_p2_spi_tb/sim/work 2 spi_if 1 /home/s20522060/lab_p2_spi_tb/sim/work clk_rst_if 1 /home/s20522060/lab_p2_spi_tb/sim/work 
+Z9 !s11d spi_agent_pkg /home/s20522060/lab_p2_spi_tb/sim/work 2 spi_if 1 /home/s20522060/lab_p2_spi_tb/sim/work clk_rst_if 1 /home/s20522060/lab_p2_spi_tb/sim/work 
+Z10 !s11d apb_agent_pkg /home/s20522060/lab_p2_spi_tb/sim/work 2 apb_if 1 /home/s20522060/lab_p2_spi_tb/sim/work clk_rst_if 1 /home/s20522060/lab_p2_spi_tb/sim/work 
+!s110 1746449346
+V_iR;F1S>HUWS^Bb016@E@3
+R2
+=1-000c293a1cb7-6818b3c2-25dad-3053
+R3
+R4
+R5
+n@_opt1
+R6
+Xapb_agent_pkg
+Z11 !s115 clk_rst_if
+Z12 !s115 apb_if
+Z13 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z14 DXx6 mtiUvm 7 uvm_pkg 0 22 8V[`8]Q0W57le7Z>zYaAj1
+Z15 DXx4 work 11 spi_cfg_pkg 0 22 Jm68]f?ILGd_aQ]DB;i9C3
+Z16 !s110 1746449336
+!i10b 1
+!s100 7g:H6UjY5X>9hZ01j`BeA2
+IeYB@40znnj_:Il3gh:ZEQ2
+S1
+Z17 d/home/s20522060/lab_p2_spi_tb/sim
+Z18 w1746431133
+8/home/s20522060/lab_p2_spi_tb/tb/agt/master/apb_agent_pkg.svh
+F/home/s20522060/lab_p2_spi_tb/tb/agt/master/apb_agent_pkg.svh
+Z19 F/home/eda/siemens/questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/uvm_macros.svh
+Z20 F/home/eda/siemens/questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_version_defines.svh
+Z21 F/home/eda/siemens/questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_message_defines.svh
+Z22 F/home/eda/siemens/questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_phase_defines.svh
+Z23 F/home/eda/siemens/questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_object_defines.svh
+Z24 F/home/eda/siemens/questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_printer_defines.svh
+Z25 F/home/eda/siemens/questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_tlm_defines.svh
+Z26 F/home/eda/siemens/questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/tlm1/uvm_tlm_imps.svh
+Z27 F/home/eda/siemens/questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_sequence_defines.svh
+Z28 F/home/eda/siemens/questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_callback_defines.svh
+Z29 F/home/eda/siemens/questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_reg_defines.svh
+Z30 F/home/eda/siemens/questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_deprecated_defines.svh
+F/home/s20522060/lab_p2_spi_tb/tb/agt/master/apb_driver_base.sv
+F/home/s20522060/lab_p2_spi_tb/tb/agt/master/apb_driver.sv
+F/home/s20522060/lab_p2_spi_tb/tb/agt/master/apb_agent.sv
+!i122 582
+Z31 L0 6 0
+VeYB@40znnj_:Il3gh:ZEQ2
+Z32 OL;L;2021.2_1;73
+r1
+!s85 0
+31
+Z33 !s108 1746449336.000000
+!s107 /home/s20522060/lab_p2_spi_tb/tb/agt/master/apb_agent.sv|/home/s20522060/lab_p2_spi_tb/tb/agt/master/apb_driver.sv|/home/s20522060/lab_p2_spi_tb/tb/agt/master/apb_driver_base.sv|/home/eda/siemens/questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_deprecated_defines.svh|/home/eda/siemens/questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_reg_defines.svh|/home/eda/siemens/questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_callback_defines.svh|/home/eda/siemens/questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_sequence_defines.svh|/home/eda/siemens/questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/tlm1/uvm_tlm_imps.svh|/home/eda/siemens/questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_tlm_defines.svh|/home/eda/siemens/questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_printer_defines.svh|/home/eda/siemens/questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_object_defines.svh|/home/eda/siemens/questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_phase_defines.svh|/home/eda/siemens/questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_message_defines.svh|/home/eda/siemens/questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_version_defines.svh|/home/eda/siemens/questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/uvm_macros.svh|/home/s20522060/lab_p2_spi_tb/tb/agt/master/apb_agent_pkg.svh|
+!s90 +incdir+/home/s20522060/lab_p2_spi_tb/tb/agt/master|+incdir+/home/s20522060/lab_p2_spi_tb/tb/env|/home/s20522060/lab_p2_spi_tb/tb/agt/master/apb_agent_pkg.svh|
+!i113 0
+Z34 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z35 !s92 +incdir+/home/s20522060/lab_p2_spi_tb/tb/agt/master +incdir+/home/s20522060/lab_p2_spi_tb/tb/env -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R5
+Yapb_if
+R13
+Z36 !s110 1746449334
+!i10b 1
+!s100 Sa]SdVW`LZZTM1P7dDbUm0
+I2nbIOgC5PmiBdbQ`;_OAn1
+S1
+R17
+R18
+8/home/s20522060/lab_p2_spi_tb/inf/apb_if.sv
+F/home/s20522060/lab_p2_spi_tb/inf/apb_if.sv
+!i122 576
+Z37 L0 1 0
+Z38 VDg1SIo80bB@j0V0VzS_@n1
+R32
+r1
+!s85 0
+31
+Z39 !s108 1746449334.000000
+!s107 /home/s20522060/lab_p2_spi_tb/inf/apb_if.sv|
+!s90 +incdir+/home/s20522060/lab_p2_spi_tb/tb/env|/home/s20522060/lab_p2_spi_tb/inf/apb_if.sv|
+!i113 0
+R34
+Z40 !s92 +incdir+/home/s20522060/lab_p2_spi_tb/tb/env -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R5
+Xapb_seq_pkg
+R13
+R14
+R15
+R16
+!i10b 1
+!s100 NzVIV6M?4WaVgkh4_5?VS1
+Ij14X^^L[Cf^S<lPB26mO<2
+S1
+R17
+w1746449333
+8/home/s20522060/lab_p2_spi_tb/tb/agt/master/seq/apb_seq_pkg.svh
+F/home/s20522060/lab_p2_spi_tb/tb/agt/master/seq/apb_seq_pkg.svh
+R19
+R20
+R21
+R22
+R23
+R24
+R25
+R26
+R27
+R28
+R29
+R30
+F/home/s20522060/lab_p2_spi_tb/tb/agt/master/seq/base_seq.sv
+F/home/s20522060/lab_p2_spi_tb/tb/agt/master/seq/rst_seq.sv
+F/home/s20522060/lab_p2_spi_tb/tb/agt/master/seq/apb_demo_seq.sv
+F/home/s20522060/lab_p2_spi_tb/tb/agt/master/seq/spi_demo_seq.sv
+!i122 581
+R31
+Vj14X^^L[Cf^S<lPB26mO<2
+R32
+r1
+!s85 0
+31
+Z41 !s108 1746449335.000000
+!s107 /home/s20522060/lab_p2_spi_tb/tb/agt/master/seq/spi_demo_seq.sv|/home/s20522060/lab_p2_spi_tb/tb/agt/master/seq/apb_demo_seq.sv|/home/s20522060/lab_p2_spi_tb/tb/agt/master/seq/rst_seq.sv|/home/s20522060/lab_p2_spi_tb/tb/agt/master/seq/base_seq.sv|/home/eda/siemens/questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_deprecated_defines.svh|/home/eda/siemens/questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_reg_defines.svh|/home/eda/siemens/questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_callback_defines.svh|/home/eda/siemens/questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_sequence_defines.svh|/home/eda/siemens/questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/tlm1/uvm_tlm_imps.svh|/home/eda/siemens/questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_tlm_defines.svh|/home/eda/siemens/questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_printer_defines.svh|/home/eda/siemens/questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_object_defines.svh|/home/eda/siemens/questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_phase_defines.svh|/home/eda/siemens/questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_message_defines.svh|/home/eda/siemens/questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_version_defines.svh|/home/eda/siemens/questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/uvm_macros.svh|/home/s20522060/lab_p2_spi_tb/tb/agt/master/seq/apb_seq_pkg.svh|
+!s90 +incdir+/home/s20522060/lab_p2_spi_tb/tb/agt/master/seq|+incdir+/home/s20522060/lab_p2_spi_tb/tb/env|/home/s20522060/lab_p2_spi_tb/tb/agt/master/seq/apb_seq_pkg.svh|
+!i113 0
+R34
+!s92 +incdir+/home/s20522060/lab_p2_spi_tb/tb/agt/master/seq +incdir+/home/s20522060/lab_p2_spi_tb/tb/env -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R5
+Xapb_slave_agent_pkg
+R12
+R13
+R14
+R15
+R16
+!i10b 1
+!s100 :D`e<]FA8?>7TV[Uk;mDB3
+I55`_SmVZWblA:2<EQ>:<X1
+S1
+R17
+R18
+8/home/s20522060/lab_p2_spi_tb/tb/agt/slave/apb_slave_agent_pkg.svh
+F/home/s20522060/lab_p2_spi_tb/tb/agt/slave/apb_slave_agent_pkg.svh
+R19
+R20
+R21
+R22
+R23
+R24
+R25
+R26
+R27
+R28
+R29
+R30
+F/home/s20522060/lab_p2_spi_tb/tb/agt/slave/apb_slave_monitor.sv
+F/home/s20522060/lab_p2_spi_tb/tb/agt/slave/apb_slave_agent.sv
+!i122 583
+R31
+V55`_SmVZWblA:2<EQ>:<X1
+R32
+r1
+!s85 0
+31
+R33
+!s107 /home/s20522060/lab_p2_spi_tb/tb/agt/slave/apb_slave_agent.sv|/home/s20522060/lab_p2_spi_tb/tb/agt/slave/apb_slave_monitor.sv|/home/eda/siemens/questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_deprecated_defines.svh|/home/eda/siemens/questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_reg_defines.svh|/home/eda/siemens/questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_callback_defines.svh|/home/eda/siemens/questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_sequence_defines.svh|/home/eda/siemens/questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/tlm1/uvm_tlm_imps.svh|/home/eda/siemens/questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_tlm_defines.svh|/home/eda/siemens/questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_printer_defines.svh|/home/eda/siemens/questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_object_defines.svh|/home/eda/siemens/questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_phase_defines.svh|/home/eda/siemens/questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_message_defines.svh|/home/eda/siemens/questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_version_defines.svh|/home/eda/siemens/questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/uvm_macros.svh|/home/s20522060/lab_p2_spi_tb/tb/agt/slave/apb_slave_agent_pkg.svh|
+!s90 +incdir+/home/s20522060/lab_p2_spi_tb/tb/agt/slave|+incdir+/home/s20522060/lab_p2_spi_tb/tb/env|/home/s20522060/lab_p2_spi_tb/tb/agt/slave/apb_slave_agent_pkg.svh|
+!i113 0
+R34
+Z42 !s92 +incdir+/home/s20522060/lab_p2_spi_tb/tb/agt/slave +incdir+/home/s20522060/lab_p2_spi_tb/tb/env -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R5
+Yclk_rst_if
+R13
+R36
+!i10b 1
+!s100 Emj:b2aSHfHX12em0^0DG1
+IBMS?Ln1mJQjVo24B08EAN3
+S1
+R17
+R18
+8/home/s20522060/lab_p2_spi_tb/inf/clk_rst_if.sv
+F/home/s20522060/lab_p2_spi_tb/inf/clk_rst_if.sv
+!i122 575
+L0 5 0
+R38
+R32
+r1
+!s85 0
+31
+R39
+!s107 /home/s20522060/lab_p2_spi_tb/inf/clk_rst_if.sv|
+!s90 +incdir+/home/s20522060/lab_p2_spi_tb/tb/env|/home/s20522060/lab_p2_spi_tb/inf/clk_rst_if.sv|
+!i113 0
+R34
+R40
+R5
+Xspi_agent_pkg
+R11
+Z43 !s115 spi_if
+R13
+R14
+R15
+Z44 !s110 1746449337
+!i10b 1
+!s100 5c32Si4h<<n@M4RbAGaEC1
+IB70nR@8L8hPgggk0O6<_M1
+S1
+R17
+R18
+8/home/s20522060/lab_p2_spi_tb/tb/agt/master/spi_agent_pkg.svh
+F/home/s20522060/lab_p2_spi_tb/tb/agt/master/spi_agent_pkg.svh
+R19
+R20
+R21
+R22
+R23
+R24
+R25
+R26
+R27
+R28
+R29
+R30
+F/home/s20522060/lab_p2_spi_tb/tb/agt/master/spi_driver_base.sv
+F/home/s20522060/lab_p2_spi_tb/tb/agt/master/spi_driver.sv
+F/home/s20522060/lab_p2_spi_tb/tb/agt/master/spi_agent.sv
+!i122 584
+R31
+VB70nR@8L8hPgggk0O6<_M1
+R32
+r1
+!s85 0
+31
+R33
+!s107 /home/s20522060/lab_p2_spi_tb/tb/agt/master/spi_agent.sv|/home/s20522060/lab_p2_spi_tb/tb/agt/master/spi_driver.sv|/home/s20522060/lab_p2_spi_tb/tb/agt/master/spi_driver_base.sv|/home/eda/siemens/questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_deprecated_defines.svh|/home/eda/siemens/questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_reg_defines.svh|/home/eda/siemens/questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_callback_defines.svh|/home/eda/siemens/questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_sequence_defines.svh|/home/eda/siemens/questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/tlm1/uvm_tlm_imps.svh|/home/eda/siemens/questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_tlm_defines.svh|/home/eda/siemens/questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_printer_defines.svh|/home/eda/siemens/questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_object_defines.svh|/home/eda/siemens/questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_phase_defines.svh|/home/eda/siemens/questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_message_defines.svh|/home/eda/siemens/questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_version_defines.svh|/home/eda/siemens/questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/uvm_macros.svh|/home/s20522060/lab_p2_spi_tb/tb/agt/master/spi_agent_pkg.svh|
+!s90 +incdir+/home/s20522060/lab_p2_spi_tb/tb/agt/master|+incdir+/home/s20522060/lab_p2_spi_tb/tb/env|/home/s20522060/lab_p2_spi_tb/tb/agt/master/spi_agent_pkg.svh|
+!i113 0
+R34
+R35
+R5
+Xspi_cfg_pkg
+R13
+R14
+Z45 !s110 1746449335
+!i10b 1
+!s100 >kd1kP=VzN<dJ>kh2`iHS3
+IJm68]f?ILGd_aQ]DB;i9C3
+S1
+R17
+w1746448793
+8/home/s20522060/lab_p2_spi_tb/tb/cfg/spi_cfg_pkg.svh
+F/home/s20522060/lab_p2_spi_tb/tb/cfg/spi_cfg_pkg.svh
+R19
+R20
+R21
+R22
+R23
+R24
+R25
+R26
+R27
+R28
+R29
+R30
+F/home/s20522060/lab_p2_spi_tb/tb/cfg/spi_cfg.sv
+!i122 580
+R31
+VJm68]f?ILGd_aQ]DB;i9C3
+R32
+r1
+!s85 0
+31
+R41
+!s107 /home/s20522060/lab_p2_spi_tb/tb/cfg/spi_cfg.sv|/home/eda/siemens/questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_deprecated_defines.svh|/home/eda/siemens/questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_reg_defines.svh|/home/eda/siemens/questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_callback_defines.svh|/home/eda/siemens/questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_sequence_defines.svh|/home/eda/siemens/questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/tlm1/uvm_tlm_imps.svh|/home/eda/siemens/questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_tlm_defines.svh|/home/eda/siemens/questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_printer_defines.svh|/home/eda/siemens/questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_object_defines.svh|/home/eda/siemens/questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_phase_defines.svh|/home/eda/siemens/questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_message_defines.svh|/home/eda/siemens/questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_version_defines.svh|/home/eda/siemens/questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/uvm_macros.svh|/home/s20522060/lab_p2_spi_tb/tb/cfg/spi_cfg_pkg.svh|
+!s90 +incdir+/home/s20522060/lab_p2_spi_tb/tb/cfg|/home/s20522060/lab_p2_spi_tb/tb/cfg/spi_cfg_pkg.svh|
+!i113 0
+R34
+!s92 +incdir+/home/s20522060/lab_p2_spi_tb/tb/cfg -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R5
+Xspi_chk_pkg
+R13
+R14
+Z46 DXx4 work 11 spi_tlm_pkg 0 22 @h2NkGa_o3XfDNLZW^n5d2
+R15
+Z47 !s110 1746449338
+!i10b 1
+!s100 VDE?_USIJW0UG62POngLe1
+IVDcmFfnC=hKS1jPVBdm:O2
+S1
+R17
+w1746448356
+8/home/s20522060/lab_p2_spi_tb/tb/chk/spi_chk_pkg.svh
+F/home/s20522060/lab_p2_spi_tb/tb/chk/spi_chk_pkg.svh
+R19
+R20
+R21
+R22
+R23
+R24
+R25
+R26
+R27
+R28
+R29
+R30
+F/home/s20522060/lab_p2_spi_tb/tb/chk/predictor.sv
+F/home/s20522060/lab_p2_spi_tb/tb/chk/sb.sv
+!i122 586
+R31
+VVDcmFfnC=hKS1jPVBdm:O2
+R32
+r1
+!s85 0
+31
+Z48 !s108 1746449337.000000
+!s107 /home/s20522060/lab_p2_spi_tb/tb/chk/sb.sv|/home/s20522060/lab_p2_spi_tb/tb/chk/predictor.sv|/home/eda/siemens/questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_deprecated_defines.svh|/home/eda/siemens/questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_reg_defines.svh|/home/eda/siemens/questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_callback_defines.svh|/home/eda/siemens/questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_sequence_defines.svh|/home/eda/siemens/questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/tlm1/uvm_tlm_imps.svh|/home/eda/siemens/questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_tlm_defines.svh|/home/eda/siemens/questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_printer_defines.svh|/home/eda/siemens/questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_object_defines.svh|/home/eda/siemens/questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_phase_defines.svh|/home/eda/siemens/questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_message_defines.svh|/home/eda/siemens/questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_version_defines.svh|/home/eda/siemens/questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/uvm_macros.svh|/home/s20522060/lab_p2_spi_tb/tb/chk/spi_chk_pkg.svh|
+!s90 +incdir+/home/s20522060/lab_p2_spi_tb/tb/tlm|+incdir+/home/s20522060/lab_p2_spi_tb/tb/env|+incdir+/home/s20522060/lab_p2_spi_tb/tb/chk|/home/s20522060/lab_p2_spi_tb/tb/chk/spi_chk_pkg.svh|
+!i113 0
+R34
+!s92 +incdir+/home/s20522060/lab_p2_spi_tb/tb/tlm +incdir+/home/s20522060/lab_p2_spi_tb/tb/env +incdir+/home/s20522060/lab_p2_spi_tb/tb/chk -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R5
+vspi_clgen
+R36
+!i10b 1
+!s100 ize3kJ0JD<SZj;i5:g:cL3
+Iz6QIdPM;QjAXV_]m;5OW`3
+R17
+R18
+8/home/s20522060/lab_p2_spi_tb/dut/spi_clgen.v
+F/home/s20522060/lab_p2_spi_tb/dut/spi_clgen.v
+!i122 578
+L0 44 64
+R38
+R32
+r1
+!s85 0
+31
+R39
+Z49 !s107 /home/s20522060/lab_p2_spi_tb/dut/timescale.v|/home/s20522060/lab_p2_spi_tb/dut/spi_top.v|/home/s20522060/lab_p2_spi_tb/dut/spi_shift.v|/home/s20522060/lab_p2_spi_tb/dut/spi_defines.v|/home/s20522060/lab_p2_spi_tb/dut/spi_clgen.v|
+Z50 !s90 +incdir+/home/s20522060/lab_p2_spi_tb/dut|/home/s20522060/lab_p2_spi_tb/dut/spi_clgen.v|/home/s20522060/lab_p2_spi_tb/dut/spi_defines.v|/home/s20522060/lab_p2_spi_tb/dut/spi_shift.v|/home/s20522060/lab_p2_spi_tb/dut/spi_top.v|/home/s20522060/lab_p2_spi_tb/dut/timescale.v|
+!i113 0
+R34
+Z51 !s92 +incdir+/home/s20522060/lab_p2_spi_tb/dut -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R5
+Xspi_env_pkg
+R13
+R14
+R15
+Z52 DXx4 work 13 apb_agent_pkg 0 22 eYB@40znnj_:Il3gh:ZEQ2
+Z53 DXx4 work 13 spi_agent_pkg 0 22 B70nR@8L8hPgggk0O6<_M1
+Z54 DXx4 work 19 spi_slave_agent_pkg 0 22 hF;0>hgU`LR[d2gT7_N[e0
+Z55 DXx4 work 19 apb_slave_agent_pkg 0 22 55`_SmVZWblA:2<EQ>:<X1
+R46
+Z56 DXx4 work 11 spi_chk_pkg 0 22 VDcmFfnC=hKS1jPVBdm:O2
+R47
+!i10b 1
+!s100 O7YjCmVEKFcdN@QR=3jR50
+IQ]hHaTiK=^D3mJk3ki[EG0
+S1
+R17
+w1746439677
+8/home/s20522060/lab_p2_spi_tb/tb/env/spi_env_pkg.svh
+F/home/s20522060/lab_p2_spi_tb/tb/env/spi_env_pkg.svh
+R19
+R20
+R21
+R22
+R23
+R24
+R25
+R26
+R27
+R28
+R29
+R30
+F/home/s20522060/lab_p2_spi_tb/tb/env/spi_env.svh
+!i122 587
+R31
+VQ]hHaTiK=^D3mJk3ki[EG0
+R32
+r1
+!s85 0
+31
+Z57 !s108 1746449338.000000
+!s107 /home/s20522060/lab_p2_spi_tb/tb/env/spi_env.svh|/home/eda/siemens/questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_deprecated_defines.svh|/home/eda/siemens/questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_reg_defines.svh|/home/eda/siemens/questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_callback_defines.svh|/home/eda/siemens/questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_sequence_defines.svh|/home/eda/siemens/questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/tlm1/uvm_tlm_imps.svh|/home/eda/siemens/questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_tlm_defines.svh|/home/eda/siemens/questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_printer_defines.svh|/home/eda/siemens/questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_object_defines.svh|/home/eda/siemens/questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_phase_defines.svh|/home/eda/siemens/questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_message_defines.svh|/home/eda/siemens/questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_version_defines.svh|/home/eda/siemens/questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/uvm_macros.svh|/home/s20522060/lab_p2_spi_tb/tb/env/spi_env_pkg.svh|
+!s90 +incdir+/home/s20522060/lab_p2_spi_tb/tb/env|/home/s20522060/lab_p2_spi_tb/tb/env/spi_env_pkg.svh|
+!i113 0
+R34
+R40
+R5
+Yspi_if
+R13
+R36
+!i10b 1
+!s100 KCYLCJGbn40BBoTHiFNN?0
+IBHP70b`MnY`]=QC^bz7^T1
+S1
+R17
+R18
+8/home/s20522060/lab_p2_spi_tb/inf/spi_if.sv
+F/home/s20522060/lab_p2_spi_tb/inf/spi_if.sv
+!i122 577
+R37
+R38
+R32
+r1
+!s85 0
+31
+R39
+!s107 /home/s20522060/lab_p2_spi_tb/inf/spi_if.sv|
+!s90 +incdir+/home/s20522060/lab_p2_spi_tb/tb/env|/home/s20522060/lab_p2_spi_tb/inf/spi_if.sv|
+!i113 0
+R34
+R40
+R5
+vspi_shift
+R36
+!i10b 1
+!s100 dS_MQ^BMRLGZi1bc^SDZ[3
+I8TNdSQS]Y[Fm3LdM0W[ci3
+R17
+R18
+8/home/s20522060/lab_p2_spi_tb/dut/spi_shift.v
+F/home/s20522060/lab_p2_spi_tb/dut/spi_shift.v
+!i122 578
+L0 44 194
+R38
+R32
+r1
+!s85 0
+31
+R39
+R49
+R50
+!i113 0
+R34
+R51
+R5
+Xspi_slave_agent_pkg
+R11
+R43
+R13
+R14
+R15
+R44
+!i10b 1
+!s100 :iYz]2V6@eD7`iMV[NK182
+IhF;0>hgU`LR[d2gT7_N[e0
+S1
+R17
+R18
+8/home/s20522060/lab_p2_spi_tb/tb/agt/slave/spi_slave_agent_pkg.svh
+F/home/s20522060/lab_p2_spi_tb/tb/agt/slave/spi_slave_agent_pkg.svh
+R19
+R20
+R21
+R22
+R23
+R24
+R25
+R26
+R27
+R28
+R29
+R30
+F/home/s20522060/lab_p2_spi_tb/tb/agt/slave/spi_slave_monitor.sv
+F/home/s20522060/lab_p2_spi_tb/tb/agt/slave/spi_slave_agent.sv
+!i122 585
+R31
+VhF;0>hgU`LR[d2gT7_N[e0
+R32
+r1
+!s85 0
+31
+R48
+!s107 /home/s20522060/lab_p2_spi_tb/tb/agt/slave/spi_slave_agent.sv|/home/s20522060/lab_p2_spi_tb/tb/agt/slave/spi_slave_monitor.sv|/home/eda/siemens/questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_deprecated_defines.svh|/home/eda/siemens/questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_reg_defines.svh|/home/eda/siemens/questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_callback_defines.svh|/home/eda/siemens/questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_sequence_defines.svh|/home/eda/siemens/questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/tlm1/uvm_tlm_imps.svh|/home/eda/siemens/questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_tlm_defines.svh|/home/eda/siemens/questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_printer_defines.svh|/home/eda/siemens/questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_object_defines.svh|/home/eda/siemens/questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_phase_defines.svh|/home/eda/siemens/questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_message_defines.svh|/home/eda/siemens/questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_version_defines.svh|/home/eda/siemens/questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/uvm_macros.svh|/home/s20522060/lab_p2_spi_tb/tb/agt/slave/spi_slave_agent_pkg.svh|
+!s90 +incdir+/home/s20522060/lab_p2_spi_tb/tb/agt/slave|+incdir+/home/s20522060/lab_p2_spi_tb/tb/env|/home/s20522060/lab_p2_spi_tb/tb/agt/slave/spi_slave_agent_pkg.svh|
+!i113 0
+R34
+R42
+R5
+Xspi_test_pkg
+R13
+R14
+R15
+R52
+R53
+R54
+R55
+R46
+R56
+Z58 DXx4 work 11 spi_env_pkg 0 22 Q]hHaTiK=^D3mJk3ki[EG0
+Z59 DXx4 work 11 apb_seq_pkg 0 22 j14X^^L[Cf^S<lPB26mO<2
+Z60 !s110 1746449339
+!i10b 1
+!s100 Il@iC6CEz]_kBF<ENG@D22
+IUgS2]n8ol1Ccd=mRc1QWX2
+S1
+R17
+R18
+8/home/s20522060/lab_p2_spi_tb/tb/tst/spi_test_pkg.svh
+F/home/s20522060/lab_p2_spi_tb/tb/tst/spi_test_pkg.svh
+R19
+R20
+R21
+R22
+R23
+R24
+R25
+R26
+R27
+R28
+R29
+R30
+F/home/s20522060/lab_p2_spi_tb/tb/tst/spi_base_test.sv
+F/home/s20522060/lab_p2_spi_tb/tb/tst/spi_demo_test.sv
+!i122 588
+Z61 L0 10 0
+VUgS2]n8ol1Ccd=mRc1QWX2
+R32
+r1
+!s85 0
+31
+R57
+!s107 /home/s20522060/lab_p2_spi_tb/tb/tst/spi_demo_test.sv|/home/s20522060/lab_p2_spi_tb/tb/tst/spi_base_test.sv|/home/eda/siemens/questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_deprecated_defines.svh|/home/eda/siemens/questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_reg_defines.svh|/home/eda/siemens/questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_callback_defines.svh|/home/eda/siemens/questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_sequence_defines.svh|/home/eda/siemens/questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/tlm1/uvm_tlm_imps.svh|/home/eda/siemens/questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_tlm_defines.svh|/home/eda/siemens/questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_printer_defines.svh|/home/eda/siemens/questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_object_defines.svh|/home/eda/siemens/questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_phase_defines.svh|/home/eda/siemens/questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_message_defines.svh|/home/eda/siemens/questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_version_defines.svh|/home/eda/siemens/questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/uvm_macros.svh|/home/s20522060/lab_p2_spi_tb/tb/tst/spi_test_pkg.svh|
+!s90 +incdir+/home/s20522060/lab_p2_spi_tb/tb/env|+incdir+/home/s20522060/lab_p2_spi_tb/tb/tst|/home/s20522060/lab_p2_spi_tb/tb/tst/spi_test_pkg.svh|
+!i113 0
+R34
+!s92 +incdir+/home/s20522060/lab_p2_spi_tb/tb/env +incdir+/home/s20522060/lab_p2_spi_tb/tb/tst -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R5
+Xspi_tlm_pkg
+R13
+R14
+R45
+!i10b 1
+!s100 0Z]SgE<49NePAolHREJll1
+I@h2NkGa_o3XfDNLZW^n5d2
+S1
+R17
+w1746445223
+8/home/s20522060/lab_p2_spi_tb/tb/tlm/spi_tlm_pkg.svh
+F/home/s20522060/lab_p2_spi_tb/tb/tlm/spi_tlm_pkg.svh
+R19
+R20
+R21
+R22
+R23
+R24
+R25
+R26
+R27
+R28
+R29
+R30
+F/home/s20522060/lab_p2_spi_tb/tb/tlm/spi_tlm.sv
+F/home/s20522060/lab_p2_spi_tb/tb/tlm/sb_tlm.sv
+!i122 579
+R31
+V@h2NkGa_o3XfDNLZW^n5d2
+R32
+r1
+!s85 0
+31
+R39
+!s107 /home/s20522060/lab_p2_spi_tb/tb/tlm/sb_tlm.sv|/home/s20522060/lab_p2_spi_tb/tb/tlm/spi_tlm.sv|/home/eda/siemens/questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_deprecated_defines.svh|/home/eda/siemens/questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_reg_defines.svh|/home/eda/siemens/questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_callback_defines.svh|/home/eda/siemens/questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_sequence_defines.svh|/home/eda/siemens/questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/tlm1/uvm_tlm_imps.svh|/home/eda/siemens/questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_tlm_defines.svh|/home/eda/siemens/questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_printer_defines.svh|/home/eda/siemens/questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_object_defines.svh|/home/eda/siemens/questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_phase_defines.svh|/home/eda/siemens/questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_message_defines.svh|/home/eda/siemens/questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_version_defines.svh|/home/eda/siemens/questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/uvm_macros.svh|/home/s20522060/lab_p2_spi_tb/tb/tlm/spi_tlm_pkg.svh|
+!s90 +incdir+/home/s20522060/lab_p2_spi_tb/tb/tlm|+incdir+/home/s20522060/lab_p2_spi_tb/tb/env|/home/s20522060/lab_p2_spi_tb/tb/tlm/spi_tlm_pkg.svh|
+!i113 0
+R34
+!s92 +incdir+/home/s20522060/lab_p2_spi_tb/tb/tlm +incdir+/home/s20522060/lab_p2_spi_tb/tb/env -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R5
+vspi_top
+R36
+!i10b 1
+!s100 2FO4fZYdeG><`@]6SbkR51
+IHZ_8jUTgPN2:5?0P4oHk02
+R17
+R18
+8/home/s20522060/lab_p2_spi_tb/dut/spi_top.v
+F/home/s20522060/lab_p2_spi_tb/dut/spi_top.v
+!i122 578
+L0 49 207
+R38
+R32
+r1
+!s85 0
+31
+R39
+R49
+R50
+!i113 0
+R34
+R51
+R5
+vtop
+R13
+R14
+R15
+R52
+R53
+R54
+R55
+R46
+R56
+R58
+R59
+Z62 DXx4 work 12 spi_test_pkg 0 22 UgS2]n8ol1Ccd=mRc1QWX2
+DXx4 work 11 top_sv_unit 0 22 FAYOM6CFE9D1S0N>gEBEQ2
+R60
+R38
+r1
+!s85 0
+!i10b 1
+!s100 fhVlBC_fH`Z=S0X5E0N9g2
+I45PG@=0`8]fc;=?5iIXFA1
+!s105 top_sv_unit
+S1
+R17
+R18
+Z63 8/home/s20522060/lab_p2_spi_tb/tb/env/top.sv
+Z64 F/home/s20522060/lab_p2_spi_tb/tb/env/top.sv
+!i122 589
+L0 17 41
+R32
+31
+Z65 !s108 1746449339.000000
+Z66 !s107 /home/s20522060/lab_p2_spi_tb/tb/env/top.sv|
+Z67 !s90 -sv|/home/s20522060/lab_p2_spi_tb/tb/env/top.sv|
+!i113 0
+Z68 o-sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R5
+Xtop_sv_unit
+R13
+R14
+R15
+R52
+R53
+R54
+R55
+R46
+R56
+R58
+R59
+R62
+R60
+VFAYOM6CFE9D1S0N>gEBEQ2
+r1
+!s85 0
+!i10b 1
+!s100 V8TiWICT5A9N=ff9O8=:E0
+IFAYOM6CFE9D1S0N>gEBEQ2
+!i103 1
+S1
+R17
+R18
+R63
+R64
+!i122 589
+R61
+R32
+31
+R65
+R66
+R67
+!i113 0
+R68
+R5
+Tvopt_top
+R7
+R8
+R9
+R10
+!s110 1746449340
+V20OZ0;XWJAUGMZ;YXoj:`1
+R2
+R3
+o+acc +designfile
+R5
+nvopt_top
+R6
+R1

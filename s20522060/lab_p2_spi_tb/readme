@@ -1,0 +1,25 @@
+List of files afffected.
+Outbound:
+  predictor.sv
+  spi_slave_monitor.sv
+  sb.sv
+  spi_slave_agent_pkg.svh
+
+Inbound:
+  predictor.sv
+  sb.sv
+  spi_driver.sv
+  spi_driver_base.sv
+  spi_agent.sv
+
+Implement a semaphore in the TB
+  Declare a semaphore in spi_cfg.svh
+  Instantiate the semaphore and initialize to 0 in the new function
+  Implement semaphore put of 1 in apb_demo_seq
+  Implement semaphore get of 1 in spi_demo_seq
+
+Requirements:
+  - Print messages in your transcript showing that the scoreboard is performing comparison on 32-bit data
+  - The current testbench prints out the randomized value of num_char. This should correlate with the number of comparisons in your simulation
+  - Email the transcript as proof of your completion. Be specific in the email subject whether you are working on Inbound or Outbound or both.
+
